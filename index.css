@@ -1,4 +1,44 @@
 body{
+    background-color: white;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* margin: 0;
+    padding: 0; */
+}
+
+.div-one{
     background-color: black;
-    color: yellow;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5%;
+    padding: 1%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.div-one-inner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home-btn{
+    margin-left: 50%;
+    background-color: black;
+}
+.home-btn:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+    opacity: 50%;
+}
+
+.home-btn:active{
+    background-color: blueviolet;
+    cursor: pointer;
+    opacity: 75%;
+    transition: 1s;
 }
